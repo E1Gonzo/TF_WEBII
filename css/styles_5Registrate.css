@@ -1,0 +1,79 @@
+/*CONTENIDO*/
+article {
+    width: 100%;
+    background-color: #162144;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 6px;
+    margin: 15px auto 0px;
+}
+aside {
+    padding: 10px;
+}
+img {
+    max-width: 310px;
+    height: 100%;
+}
+section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+h3,
+p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px;
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+form input {
+    max-width: 230px;
+    width: 90%;
+}
+.form2 input {
+    padding: 0 10px 0;
+    margin: 0 9px;
+}
+input::placeholder,
+textarea::placeholder{
+    color: black;
+}
+/*BOTONES*/
+.boton1,
+.boton2 {
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bolder;
+    border-radius: 5px;
+    padding: 6px 17px;
+    margin: 13px;
+    margin-bottom: 0%;
+}
+.boton1 {
+    background-color: #ff0062;
+    color: #ffffffdc;
+    border: 3px solid #ff0062;
+}
+.boton2 {
+    color: #ff0062;
+    border: 3px solid #ff0062;
+}
+
+
+
+@media (max-width: 1124px) {
+    article {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}

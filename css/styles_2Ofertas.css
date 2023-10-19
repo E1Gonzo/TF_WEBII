@@ -1,0 +1,121 @@
+/*CONTENIDO*/
+article {
+    width: 100%;
+    background-color: #162144;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto 0px;
+}
+.video{
+    max-width: 690px;
+    max-height: fit-content;
+    width: 92%;
+    height: 350px;
+    margin: 7px auto 10px;
+}
+iframe {
+    width: 90%;
+    height: 100%;
+    display: block;
+    margin: 0px auto;
+}
+h2 {
+    color: #ffffff;
+    font-size: 25px;
+    margin-top: 30px;
+}
+section {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+.Cont1,
+.Cont2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    width: 350px;
+    height: 200px;
+    margin: 15px 17px;
+}
+h3 {
+    text-align: center;
+    color: #ffffff;
+    font-size: larger;
+    font-weight: lighter;
+    margin-top: 5px;
+}
+/*BOTÓN*/
+.contenedorbtn {
+    margin: 10px auto;
+    padding-bottom: 10px;
+}
+.boton1,
+.boton2 {
+    max-width: 160px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bolder;
+    border-radius: 5px;
+    padding: 10px 40px;
+    margin: 0 15px 0;
+}
+.boton1 {
+    background-color: #00ff5e;
+    color: #424242;
+    border: 3px solid #00ff5e;
+}
+.boton2  {
+    color: #00ff5e;
+    border: 3px solid #00ff5e;
+}
+
+@media (min-width: 831px) and (max-width: 1200px) {
+    section {
+        width: 95%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .Cont1,
+    .Cont2 {
+        max-width: 350px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+}
+
+
+@media (max-width: 830px) {
+    section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .Cont1,
+    .Cont2 {
+        max-width: 350px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    h2 {
+        text-align: center;
+        font-size: 19px;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    h3 {
+        font-size: medium;
+        margin: 15px;
+    }
+}

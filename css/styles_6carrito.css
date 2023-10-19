@@ -1,0 +1,64 @@
+.divButton {
+    width: 280px;
+    margin: 7px auto;
+}
+
+button {
+    background-color: #00ffd5;
+    text-decoration: none;
+    color: #424242;
+    font-weight: bolder;
+    display: inline-block;
+    border: 0;
+    padding: 10px 80.5px;
+}
+
+section {
+    width: 96%;
+    background-color: #131c3b;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 25px auto 0;
+}
+
+div {
+    background-color: #131c3b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: solid;
+    color: white;
+    padding: 0 30px 45px;
+}
+
+h2 {
+    font-size: medium;
+}
+
+.art1 {
+    display: flex;
+}
+.art2 {
+    display: flex;
+}
+.art1 p, .art2 p {
+    padding: 0 40px;
+}
+.art2 p {
+    margin: 0;
+}
+
+.footer p {
+    text-align: center;
+    color: #ffffff56;
+    font-size: 14.5px;
+    margin: 5px auto  25px;
+}
+
+h3 {
+    text-align: center;
+    padding-bottom: 7px;
+    margin: 0;
+}
